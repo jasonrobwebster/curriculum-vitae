@@ -1,0 +1,74 @@
+\documentclass[a4paper,10pt]{article}
+% Requires xelatex
+
+\usepackage{marvosym}
+\usepackage{fontspec} 					%for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\usepackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo} 				%better formatting of the A4 page
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+%FONTS
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[
+SmallCapsFont = Fontin-SmallCaps.otf,
+BoldFont = Fontin-Bold.otf,
+ItalicFont = Fontin-Italic.otf
+]
+{Fontin.otf}
+
+%%%
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+
+% -------------------------------------------------------
+% USER DEFINED SETTINGS
+% -------------------------------------------------------
+\newcommand{\email}[1]{\href{mailto:#1}{#1}}
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+\pagestyle{empty} % non-numbered pages
+
+\font\fb=''[cmr10]'' %for use with \LaTeX command
+
+%--------------------TITLE-------------
+\par{\centering
+		{\Huge Jason \textsc{Webster}
+	}\bigskip\par}
+
+\begin{center}
+	\begin{tabular}{rl}
+		\textsc{LinkedIn:} & \href{https://www.linkedin.com/in/jasonrobwebster/}{linkedin.com/in/jasonrobwebster/} \\
+		\textsc{GitHub:} & \href{https://github.com/jasonrobwebster/}{github.com/jasonrobwebster/}
+	\end{tabular}
+\end{center}
+
+%--------------------SECTIONS-----------------------------------
+\input{Sections/Personal}
+\input{Sections/Languages}
+\input{Sections/WorkExperience}
+\input{Sections/Education}
+\input{Sections/Awards}
+\input{Sections/Publications}
+\input{Sections/Conferences}
+\input{Sections/Leadership}
+\input{Sections/Societies}
+\input{Sections/Skills}
+\input{Sections/Certificates}
+\input{Sections/PersonalAchievements}
+\input{Sections/Interests}
+
+\newpage
+\input{Sections/AcademicRecord}
+
+\end{document}
