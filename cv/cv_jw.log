@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2017.6.14)  4 SEP 2019 22:26
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2017.6.14)  21 OCT 2019 21:22
 entering extended mode
 **./cv_jw.tex
 (cv_jw.tex
@@ -925,48 +925,143 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 ))
 (Sections/Languages.tex) (Sections/WorkExperience.tex) (Sections/Education.tex
+Overfull \hbox (8.6481pt too wide) in paragraph at lines 3--1
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
 [1
 
-]) (Sections/Awards.tex) (Sections/Publications.tex [2]
-! Misplaced \noalign.
-\@tabletail ->\noalign 
-                       {\global \let \@savcr =\\ \global \let \\=\org@tabula...
-l.17 \end{supertabular}
-                       
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
+]) (Sections/Awards.tex
+Overfull \hbox (3.24512pt too wide) in paragraph at lines 11--1
+[]
+ []
 
-! Misplaced \noalign.
-\@tabletail ...l \let \\=\org@tabularcr }\noalign 
-                                                  {\global \let \\=\@savcr }
-l.17 \end{supertabular}
-                       
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
 
-) (Sections/Conferences.tex) (Sections/Leadership.tex) (Sections/Societies.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--1
+
+ []
+
+) (Sections/Publications.tex
+Overfull \hbox (8.6481pt too wide) in paragraph at lines 3--1
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+
+Overfull \hbox (8.6481pt too wide) in paragraph at lines 3--11
+[] 
+ []
+
+[2]) (Sections/Projects.tex
+Overfull \hbox (8.6481pt too wide) in paragraph at lines 11--1
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--1
+
+ []
+
+) (Sections/Conferences.tex
+Overfull \hbox (8.6481pt too wide) in paragraph at lines 3--1
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+) (Sections/Leadership.tex
+Overfull \hbox (8.6481pt too wide) in paragraph at lines 3--1
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+) (Sections/Societies.tex
+Overfull \hbox (8.6481pt too wide) in paragraph at lines 3--1
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+[3]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 14.
-) (Sections/Skills.tex) (Sections/Certificates.tex [3])
-(Sections/PersonalAchievements.tex) (Sections/Interests.tex) [4]
-(Sections/AcademicRecord.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
+) (Sections/Skills.tex
+Overfull \hbox (8.6481pt too wide) in paragraph at lines 3--1
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+) (Sections/Certificates.tex
+Overfull \hbox (8.6481pt too wide) in paragraph at lines 3--1
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+) (Sections/PersonalAchievements.tex
+Overfull \hbox (8.6481pt too wide) in paragraph at lines 3--1
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+) (Sections/Interests.tex
+Overfull \hbox (8.6481pt too wide) in paragraph at lines 3--1
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+[4]) [5] (Sections/AcademicRecord.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
  (cv_jw.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 74.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 74.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 75.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 75.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  ) 
 Here is how much of TeX's memory you used:
- 22584 strings out of 427834
- 409487 string characters out of 3152470
- 499226 words of memory out of 3000000
+ 22587 strings out of 427834
+ 409533 string characters out of 3152470
+ 502226 words of memory out of 3000000
  26382 multiletter control sequences out of 15000+200000
  532663 words of font info for 55 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  39i,12n,67p,10463b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on cv_jw.pdf (5 pages).
+Output written on cv_jw.pdf (6 pages).
