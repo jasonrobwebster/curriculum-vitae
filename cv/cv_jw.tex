@@ -2,6 +2,7 @@
 % Requires xelatex
 
 \usepackage{marvosym}
+\usepackage{geometry}
 \usepackage{fontspec} 					%for loading fonts
 \usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
 \usepackage{color,graphicx}
@@ -9,6 +10,9 @@
 \usepackage[big]{layaureo} 				%better formatting of the A4 page
 \usepackage{supertabular} 				%for Grades
 \usepackage{titlesec}					%custom \section
+\usepackage{tikz}
+\usepackage{tikzpagenodes}
+\usetikzlibrary{calcs}
 
 %Setup hyperref package, and colours for links
 \usepackage{hyperref}
@@ -17,17 +21,42 @@
 
 %FONTS
 \defaultfontfeatures{Mapping=tex-text}
-\setmainfont[
-SmallCapsFont = Fontin-SmallCaps.otf,
-BoldFont = Fontin-Bold.otf,
-ItalicFont = Fontin-Italic.otf
+\setmainfont{Fontin}[
+SmallCapsFont = *-SmallCaps,
+BoldFont = *-Bold,
+ItalicFont = *-Italic
 ]
-{Fontin.otf}
+
+% setup skill bars
+\usepackage{xcolor}
+\definecolor{noskillgray}{gray}{0.8}
+\definecolor{skilledblack}{rgb}{0.1,0.1,0.1}
+
+\makeatletter
+\newdimen\skillb@level
+\newdimen\skillb@length
+\newdimen\skillb@height
+\skillb@length=80pt%
+\skillb@height=5pt%
+\newcommand*{\skillbar}[1]{%
+    \skillb@level=\dimexpr#1\skillb@length/100\relax%
+    {\color{skilledblack}\rule{\skillb@level}{\skillb@height}}%
+    {\color{noskillgray}%
+        \rule{\dimexpr\skillb@length-\skillb@level\relax}{\skillb@height}}%
+}
+\newcommand*{\skill}[2]{%
+	\par\noindent%
+    {\hskip 1ex\textsc #1}\hspace{10pt}\skillbar{#2}%
+}
+\makeatother
 
 %%%
 
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{3pt}{3pt}
+\titlespacing{\section}{0pt}{3pt}{10pt}
+\titleformat{\subsection}{\large\scshape\centering}{}{0em}{}
+\titlespacing{\subsection}{0pt}{3pt}{8pt}
+\titlespac
 
 % -------------------------------------------------------
 % USER DEFINED SETTINGS
@@ -42,29 +71,37 @@ ItalicFont = Fontin-Italic.otf
 \font\fb=''[cmr10]'' %for use with \LaTeX command
 
 %--------------------TITLE-------------
-\par{\centering
-		{\Huge Jason \textsc{Webster}
+
+\begin{tikzpicture}[remember picture,overlay]
+	\clip (12, -1.25)
+	  circle (1.5cm) node {\includegraphics[width=3cm]{profile.JPG}};
+\end{tikzpicture}
+
+\par{\raggedright
+		{\hskip 1cm\Huge Jason \textsc{Webster}
 	}\bigskip\par}
 
-\begin{center}
+\begin{left}
 	\begin{tabular}{rl}
 		\textsc{LinkedIn:} & \href{https://www.linkedin.com/in/jasonrobwebster/}{linkedin.com/in/jasonrobwebster/} \\
 		\textsc{GitHub:} & \href{https://github.com/jasonrobwebster/}{github.com/jasonrobwebster/}
 	\end{tabular}
-\end{center}
+\end{left}
+
+
 
 %--------------------SECTIONS-----------------------------------
 \input{Sections/Personal}
 \input{Sections/Languages}
+\input{Sections/Skills}
 \input{Sections/WorkExperience}
 \input{Sections/Education}
+\input{Sections/Projects}
 \input{Sections/Awards}
 \input{Sections/Publications}
-\input{Sections/Projects}
 \input{Sections/Conferences}
 \input{Sections/Leadership}
 \input{Sections/Societies}
-\input{Sections/Skills}
 \input{Sections/Certificates}
 \input{Sections/PersonalAchievements}
 \input{Sections/Interests}
