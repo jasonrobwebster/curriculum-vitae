@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.4.2)  27 JAN 2021 15:53
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.4.2)  1 FEB 2021 10:58
 entering extended mode
 **./cv_jw.tex
 (cv_jw.tex
@@ -931,44 +931,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--1
  []
 
 
-Overfull \hbox (8.6481pt too wide) in paragraph at lines 3--22
+Overfull \hbox (8.6481pt too wide) in paragraph at lines 3--15
 [] 
  []
 
 [1
 
-]) (Sections/Education.tex
-Overfull \hbox (8.6481pt too wide) in paragraph at lines 22--1
+]) (Sections/Projects.tex
+Overfull \hbox (8.6481pt too wide) in paragraph at lines 15--1
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--1
+Underfull \hbox (badness 10000) in paragraph at lines 15--1
 
  []
 
-) (Sections/Projects.tex
+
+Overfull \hbox (8.6481pt too wide) in paragraph at lines 3--23
+[] 
+ []
+
+[2]) (Sections/Education.tex) (Sections/Awards.tex
 Overfull \hbox (3.24512pt too wide) in paragraph at lines 3--1
 []
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--1
-
- []
-
-
-Overfull \hbox (8.6481pt too wide) in paragraph at lines 3--11
-[] 
- []
-
-[2]) (Sections/Awards.tex
-Overfull \hbox (8.6481pt too wide) in paragraph at lines 11--1
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--1
 
  []
 
@@ -983,17 +973,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--1
  []
 
 
-Overfull \hbox (8.6481pt too wide) in paragraph at lines 3--11
+Overfull \hbox (8.6481pt too wide) in paragraph at lines 3--7
 [] 
  []
 
 [3]) (Sections/Conferences.tex
-Overfull \hbox (8.6481pt too wide) in paragraph at lines 11--1
+Overfull \hbox (8.6481pt too wide) in paragraph at lines 7--1
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--1
+Underfull \hbox (badness 10000) in paragraph at lines 7--1
 
  []
 
@@ -1007,16 +997,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--1
 
  []
 
-) (Sections/Societies.tex
-Overfull \hbox (8.6481pt too wide) in paragraph at lines 3--1
-[][]
+
+Overfull \hbox (8.6481pt too wide) in paragraph at lines 3--12
+[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--1
-
- []
-
+[4]) (Sections/Societies.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1031,9 +1017,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--1
 
  []
 
-[4]) (Sections/PersonalAchievements.tex
+! Misplaced \noalign.
+\@tabletail ->\noalign 
+                       {\global \let \@savcr =\\ \global \let \\=\org@tabula...
+l.7 \end{supertabular}
+                      
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \noalign.
+\@tabletail ...l \let \\=\org@tabularcr }\noalign 
+                                                  {\global \let \\=\@savcr }
+l.7 \end{supertabular}
+                      
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+) (Sections/PersonalAchievements.tex
 Overfull \hbox (8.6481pt too wide) in paragraph at lines 3--1
-[][]
+[]
  []
 
 
@@ -1075,7 +1077,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 112.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `cv_jw.out' has not changed.
-(rerunfilecheck)             Checksum: 06AE7F369E1792C632E6064F3AB89FC8;701.
+(rerunfilecheck)             Checksum: 1F4B268F486EA19A003C3A7A0A0E5389;701.
  ) 
 Here is how much of TeX's memory you used:
  26003 strings out of 414580
